@@ -96,18 +96,32 @@ public class Main {
         else if(choice==2){
             System.out.println("We have 5 models available");
             System.out.println("1. Lamborghini");
-            System.out.println("2. Ferrar");
-            System.out.println("3. Bugati");
+            System.out.println("2. Ferrari");
+            System.out.println("3. Bugatti");
             System.out.println("4. Eccose");
             System.out.println("5. Yamaha");
+            System.out.println("Enter the one you would like(between 1 to 5)");
+
+            int carsOption;
+            carsOption = scanner.nextInt();
+            if(carsOption==1){
+                System.out.println("The cost of Lamborghini : "+car1.cost);
+            } else if (carsOption==2) {
+                System.out.println("The cost of Ferrari : "+car2.cost);
+            }
+            else if (carsOption==3) {
+                System.out.println("The cost of Bugatti : "+car2.cost);
+            }
+            else if (carsOption==4) {
+                System.out.println("The cost of Eccose : "+car2.cost);
+            }
+            else if (carsOption==5) {
+                System.out.println("The cost of Yamaha : "+car2.cost);
+            }
+            else {
+                System.out.println("The car does not exist");
+            }
         }
-
-
-
-
-
-
-
 
 
 
